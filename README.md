@@ -19,7 +19,7 @@
 ### 1. Клонировать репозиторий и перейти в папку проекта
 
 ```bash
-git clone https://github.com/<твой-логин>/demoblaze-cart-test.git
+git clone https://github.com/pokachnov/demoblaze-cart-test.git
 cd demoblaze-cart-test
 ```
 

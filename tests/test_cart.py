@@ -30,6 +30,5 @@ def test_add_samsung_galaxy_s6_to_cart(page: Page):
     rows = page.locator("#tbodyid tr")
     expect(rows).to_have_count(1)
     expect(rows.first.locator("td").nth(1)).to_have_text(PRODUCT_NAME)
-    expect(rows.first.locator("td").nth(1)).to_have_text(PRODUCT_NAME)
     if os.getenv("PAUSE"):
         page.pause() 
